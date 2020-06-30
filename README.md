@@ -10,3 +10,8 @@ Useful for populating large dropdown questions.
 - Data in the spreadsheet must have column headings that match questions on the spreadsheet.
   - If the column heading doesnt match a question, it will be ignored.
 - Create trigger for on edit or run the function manually as needed.
+
+## Authors
+Ben Letchford - Initial work
+
+Jacob Brummans - Initial work
