@@ -12,6 +12,7 @@ Useful for populating large dropdown questions.
 - Create trigger for on edit or run the function manually as needed.
 
 ## Authors
-Ben Letchford - Initial work
 
-Jacob Brummans - Initial work
+**Ben Letchford** - *Initial work*
+
+**Jacob Brummans** - *Initial work*
