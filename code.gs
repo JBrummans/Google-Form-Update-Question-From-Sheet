@@ -1,11 +1,18 @@
 function updateForm(){
+  //Replace these variables
+  var datasheet = "SHEET NAME HERE"
   var form = FormApp.openById("FORMIDHERE_0fv4se9HDL6FjOH87f8aIHigmM");
-  byFormID(form)
+  
+  //Check to ensure its only run when the datasheet is modifed
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = ss.getActiveSheet();
+  if(sheet.getName() === datasheet){
+    byFormID(form, datasheet)
+  }
 }
 
-function byFormID(form){
+function byFormID(form, datasheet){
   var ss = SpreadsheetApp.getActive();
-  var dataSheet = ss.getSheetByName("SHEET NAME HERE");
 
   var data = dataSheet.getRange(1, 1, dataSheet.getLastRow(), dataSheet.getLastColumn()).getValues();
   
