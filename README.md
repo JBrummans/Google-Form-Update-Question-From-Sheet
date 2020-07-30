@@ -7,7 +7,7 @@ Useful for populating large dropdown questions.
 
 - Update the Form ID  in the script to the required form.
 - Update the ss.getSheetByName value to the name of the sheet with the data.
-- Data in the spreadsheet must have column headings that match questions on the spreadsheet.
+- Data in the spreadsheet must have column headings that match questions on the Form.
   - If the column heading doesnt match a question, it will be ignored.
 - Create trigger for on edit or run the function manually as needed.
 
